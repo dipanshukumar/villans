@@ -1,0 +1,13 @@
+<div id="search-component">
+  <h4>Villan Search</h4>
+
+  <input #searchBox id="search-box" (keyup)="search(searchBox.value)" />
+
+  <ul class="search-result">
+    <li *ngFor="let villan of villans$ | async">
+      <a routerLink="/detail/{{villan.id}}">
+        {{villan.name}}
+      </a>
+    </li>
+  </ul>
+</div>
