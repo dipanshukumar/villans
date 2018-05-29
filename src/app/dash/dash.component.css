@@ -33,7 +33,7 @@ h4 {
   color: rgb(231, 221, 221);
   max-height: 120px;
   min-width: 120px;
-  background-color: #607D8B;
+  background-color: rgb(13, 43, 58);
   border-radius: 4px;
 }
 .module:hover {
